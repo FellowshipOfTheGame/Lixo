@@ -16,8 +16,8 @@ if sys.platform == "win32":
     base = "Win32GUI"
     extension = ".exe"
 
-setup(name = "Lixo",
+setup(name = "EcoEdu",
       version = "0.1",
       description = u"Jogo educativo com o objetivo de incentivar as crianças a cuidar do meio ambiente mostrando como eles devem participar nesse processo chamado reciclagem",
       options = {"build_exe": build_exe_options},
-      executables = [Executable("central.py", base=base, targetName="Lixo" + extension)])
+      executables = [Executable("central.py", base=base, targetName="EcoEdu" + extension)])
