@@ -32,8 +32,8 @@ class Central():
     def __init__(self):
         """Carrega sons, fases e abre menu inicial"""
         barulho.inicio()
-        barulho.carr_musica("Llamarama-musica_feliz2.wav", "feliz")
-        barulho.carr_musica("vitoria.wav", "vitoria")
+        barulho.carr_musica("Llamarama-musica_feliz2.mp3", "feliz")
+        barulho.carr_musica("vitoria.mp3", "vitoria")
         barulho.carr_som("certo.wav", "certo")
         barulho.carr_som("errado.wav", "errado")
         barulho.carr_som("papel.wav", tipo="ajuda")
