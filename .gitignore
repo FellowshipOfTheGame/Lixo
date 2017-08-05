@@ -1,0 +1,10 @@
+# cache do python
+*.pyc
+__pycache__/
+
+# backup de texto
+*~
+*.swp
+
+# builds
+build/

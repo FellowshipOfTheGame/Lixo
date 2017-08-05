@@ -1,0 +1,54 @@
++------------------------------------------------------+
+|                                                      |
+|     Definição dos Products Backlogs do Jogo Lixo     |
+|                                                      |
++------------------------------------------------------+
+
+
+==== Marcos (Milestones) ====
+
+0.1	Engine básica
+0.2	Implementação dos inimigos, sons, IA básica
+0.3	IA bem desenvolvida, menu de opções
+0.3.5	Correção de bugs
+0.4	...
+
+
+==== Definição dos Backlogs ====
+
+ => Engine básica
+	- Movimentação dos objetos
+		_ O jogador deve poder mover os objetos da tela
+			+ Definir operação de "agarrar" do mouse
+			+ Definir operação de "soltar"
+	- Estruturas de dados
+		_ Os objetos devem possuir um atributo "tipo"
+			+ Determinar colisão dos objetos entre si, para interação
+	- Ações
+		_ Lixos e Lixeiras devem interagir entre si
+			+ Implementar desaparecimento de lixo quando este colide com uma lixeira do mesmo tipo;
+			+ Implementar animação na lixeira quando engolir algum lixo;
+			+ Implementar o retorno à posição anterior quando o lixo colide com uma lixeira de outro tipo;
+
+ => Pontuação
+	_ O jogador deve ter a possibilidade de "quantificar" seu desempenho atual durante a partida.
+		- Deve-se estabelecer um sistema de pontuação para acertos de lixeira... e talvez penalisações quando erram a lixeira.
+		- Estrelas mostrarão de forma aproximada quantos acertos já foram feitos naquela lixeira: estrela trsite = muitos erros; estrela feliz = muitos acertos.
+
+ => Interface Gráfica
+	- Pontuação
+		_ O jogador deve ter a possibilidade de "quantificar" seu desempenho atual durante a partida.
+			+ Deve-se estabelecer um sistema de pontuação para acertos de lixeira... e talvez penalisações quando erram a lixeira.
+			+ Estrelas mostrarão de forma aproximada quantos acertos já foram feitos naquela lixeira: estrela trsite = muitos erros; estrela feliz = muitos acertos.
+			+ Na tela, em alguma parte, deve-se mostrar seus pontos "brutos", talvez com número de acertos e erros até então;
+			+ Permitir que o jogador coloque seu nome entre os X melhores (hi-score) até o momento.
+
+
+ => Eye Candies
+	- Sons
+		_ O jogador pode ser notificado através de sons sobre o sucesso (engolir) ou fracasso (retornar) ao soltar o lixo em algum lugar.
+
+
+==== Backlogs a serem implementados em cada iteração ====
+
+<completar a lista>

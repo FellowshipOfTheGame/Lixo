@@ -1,0 +1,3 @@
+<fase nome="Praca" fundo="praca.png">
+    <lixo tipo="1" quantidade="3"/>
+</fase>

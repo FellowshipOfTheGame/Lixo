@@ -1,0 +1,5 @@
+<fase nome="Rua" fundo="fundo_rua.png">
+    <lixo tipo="1" quantidade="2"/>
+    <lixo tipo="2" quantidade="2"/>
+    <lixo tipo="4" quantidade="1"/>
+</fase>

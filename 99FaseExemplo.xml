@@ -1,0 +1,20 @@
+<!--
+Nome: 99AAAA.xml
+99: Ordem da fase
+AAAAA: Meramente descritivo
+
+tipo 0 : Papel
+tipo 1 : Plastico
+tipo 2 : Metal
+tipo 3 : Vidro
+tipo 4 : Organico
+
+O arquivo CCCCC.png deve estar dentro de gfx/
+
+ -->
+
+<fase nome="BBBBB" fundo="CCCCC.png">
+    <lixo tipo="0" quantidade="1"/>
+    <lixo tipo="1" quantidade="2"/>
+    <lixo tipo="2" quantidade="3"/>
+</fase>
